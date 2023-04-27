@@ -8,7 +8,7 @@ async function crawlPage(baseURL, currentURL, pages){
     }
 
     const normalizecurrentURL = normalizeURL(currentURL)
-    if(pages[normalizeCurrentURL] > 0) {
+    if(pages[normalizecurrentURL] > 0) {
         pages [normalizecurrentURL]++
         return pages
     }
